@@ -58,6 +58,7 @@ $(document).ready(function(){
 
 
     // Skills Part 이미지 배열
+    /*
     const skill_list = [
         ["html.png", "90"],
         ["css.png", "85"],
@@ -89,6 +90,7 @@ $(document).ready(function(){
         $(this).find(".img").css("background-image", "url(./img/"+skill_list[i][0]+")");
         $(this).find(".score span").text(skill_list[i][1]);
     });
+    */
 
 
 
