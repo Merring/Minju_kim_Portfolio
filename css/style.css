@@ -142,10 +142,11 @@ li.p-5::before{content:"5%"}li.p-10::before{content:"10%"}li.p-15::before{conten
   top:-15px;
   margin:0;
   margin-bottom:15px;
-  padding:0 10px;
+  padding:5px 10px;
   font-size:30px;
-  background:transparent;
-  line-height:30px
+  background:#fdcab8;
+  color: #f84e1a;
+  line-height:30px;
 }
 
 .percent-indicator {
