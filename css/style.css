@@ -122,7 +122,7 @@ main #bg_img .bottom_txt p{border-left: 2px solid #f84e1a; font-size: 12px; padd
 
 
 #works .left_txt{width: 60%; word-break: normal; padding: 0 130px;}
-#works .left_txt > p{font-size: 18px; font-weight: 200; background-position: 10px;}
+#works .left_txt > p{font-size: 15px; font-weight: 200; background-position: 10px;}
 #works .left_txt h3{padding-bottom: 50px;}
 
 
@@ -175,7 +175,7 @@ main #bg_img .bottom_txt p{border-left: 2px solid #f84e1a; font-size: 12px; padd
 /* Contact part */
 #contact{width: 100%; margin: 0 auto; padding: 10px 100px; text-align: center;}
 #contact h2{padding-bottom: 10px;}
-#contact > p{font-weight: 400; font-size: 14px; line-height: 1.5; color: #777; padding-bottom: 50px;}
+#contact > p{font-weight: 400; font-size: 15px; line-height: 1.5; color: #777; padding-bottom: 50px;}
 
 
 #contact .formlist{padding: 10px;}
