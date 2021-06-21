@@ -207,10 +207,10 @@ footer{width: 100%; padding: 20px 0; background: #fdcab8; margin-top: 100px;}
 footer .wrap{}
 footer .wrap .sns{}
 
-footer .wrap .copyrights{text-align: center; color: #fff; color: #333;}
-footer .wrap .copyrights h4{font-size: 18px; font-weight: 300; padding-bottom: 5px;}
-footer .wrap .copyrights h4 span{font-size: 14px; font-weight: 300;}
-footer .wrap .copyrights p{font-size: 12px; font-weight: 300;}
+footer .wrap .copyrights{text-align: center; color: #333;}
+footer .wrap .copyrights h4{font-size: 18px; font-weight: 400; padding-bottom: 5px;}
+footer .wrap .copyrights h4 span{font-size: 14px; font-weight: 400;}
+footer .wrap .copyrights p{font-size: 12px; font-weight: 400;}
 
 
 
