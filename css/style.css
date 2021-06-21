@@ -155,7 +155,7 @@ main #bg_img .bottom_txt p{border-left: 2px solid #f84e1a; font-size: 12px; padd
 
 #works .slide_frame .slide_part .slick-dots{position: absolute; top:50%; right:20px; transform: translateY(-50%);}
 #works .slide_frame .slide_part .slick-dots li{height: 8px; background-color: transparent;}
-#works .slide_frame .slide_part .slick-dots li button{text-indent: -9999px; padding: 0; width: 8px; height: 8px; border:none; border-radius:50%; background-color: #fff; cursor: pointer;}
+#works .slide_frame .slide_part .slick-dots li button{text-indent: -9999px; padding: 0; width: 10px; height: 10px; border:none; border-radius:50%; background-color: #fdcab8; cursor: pointer;}
 #works .slide_frame .slide_part .slick-dots li.slick-active button{background-color: #f84e1a;}
 
 
