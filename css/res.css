@@ -1,0 +1,71 @@
+/* Responsive Web */
+
+@charset "utf-8";
+
+
+
+
+@media (max-width:1279px){
+    #logo img{height: 40px;}
+    
+    #main #bg_img{background-image: url(../img/Intro_img-2.png);}
+
+    #skills article .right{width: 60%;}
+    .graph-wrapper{max-width: 55%;}
+    .percent-indicator div::before, .percent-indicator div::after{font-size: 18px;}
+
+    #works .left_txt{width: 70%;}
+    #works .slide_frame .slide_part .slides{padding-left: 30px; padding-right: 155px;}
+    #works .slide_frame .slide_part .slick-dots{right: 50px;}
+    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part > .text_box h3{padding: 80px 0;}
+    #works .slide_frame .text_part > .text_box .cont_info > p{width: 100%;}
+}
+
+
+
+@media (max-width:1023px){
+    #main #bg_img .main_txt{border: 2px solid #f84e1a;}
+    #main #bg_img .top_txt h4{font-size: 12px;}
+    #main #bg_img .top_txt p{font-size: 6px;}
+    #main #bg_img .main_txt h3{font-size: 14px;}
+    #main #bg_img .main_txt h2{font-size: 28px;}
+    #main #bg_img .main_txt h2 span{font-size: 20px;}
+    #main #bg_img .main_txt p{font-size: 8px;}
+    #main #bg_img .bottom_txt p{border-left: 2px solid #f84e1a; font-size: 8px; padding-left: 5px;}
+
+    #about article .left .profile .img{width: 240px;}
+    #about article .left .profile .img .deco_line{width: 260px; height: 338px;}
+
+    #skills article .left{width: 60%;}
+    #skills article .right{width: 100%; padding-top: 250px;}
+
+    #works .left_txt{width: 100%;}
+    #works .slide_frame .slide_part .slides{padding-left: 5px; padding-right: 230px;}
+    #works .slide_frame .slide_part .slick-dots{right: 160px;}
+    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part > .text_box .cont_info h4{font-size: 17px; word-break: keep-all;}
+    
+}
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+    #about article{flex-direction: column-reverse; padding: 0 40px;}
+    #about article .left{width: 100%; padding-left: 80px;}
+    #about article .right{width: 100%; text-align: left; padding-right: 0; padding-left: 80px;}
+}
+
+
+
+@media (max-width:639px){
+    nav{transform-origin: left bottom; transform: rotate(90deg);}
+}
+
+
+
+@media (max-width:420px){
+
+}
