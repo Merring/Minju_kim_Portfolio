@@ -9,10 +9,10 @@ ul, ol{margin: 0; padding: 0; list-style: none;}
 a{text-decoration: none;}
 
 /* 공통 부분 */
-body{background: linear-gradient(to top, #fff3e4, #fff); /*overflow-x:hidden;*/}
-section{padding-top: 120px; padding-bottom: 230px;}
+body{background: linear-gradient(to top, #fff3e4, #fff); -ms-overflow-style: none; /*overflow-x:hidden;*/}
+body::-webkit-scrollbar {display: none;}
+section{padding-top: 120px; padding-bottom: 200px;}
 .sub{font-size: 38px; color: #333;}
-
 
 
 
@@ -92,7 +92,7 @@ nav .menu li a:hover{color: #f84e1a;}
 
 
 #skills .degree{width: 100%; text-align: center; margin-top: 100px; padding-bottom: 50px; background-color: #faead6;}
-#skills .degree h2{font-size: 32px; font-weight: 600; padding: 50px 0;}
+#skills .degree h2{font-size: 34px; font-weight: 600; padding: 50px 0;}
 #skills .degree .skill_list{margin: 0 auto;}
 #skills .degree .skill_list .wrap{width: 100%; /*display: flex; justify-content: center;*/}
 #skills .degree .skill_list .wrap .frame{width: 150px; height: 150px; padding: 10px;}
@@ -344,11 +344,11 @@ li.p-5::before{content:"5%"}li.p-10::before{content:"10%"}li.p-15::before{conten
 #contact .formlist{padding: 10px;}
 #contact .formlist ul{}
 #contact .formlist ul li{display: flex; align-items: flex-start; padding: 10px 0;}
-#contact .formlist ul li label{display: block; width: 140px; font-size: 16px; font-weight: bold; word-break: keep-all; line-height: 36px; color:#333; text-align: left;}
+#contact .formlist ul li label{display: block; width: 140px; padding-left: 10px; font-size: 16px; font-weight: bold; word-break: keep-all; line-height: 36px; color:#333; text-align: left;}
 #contact .formlist ul li label sup{color:#f84e1a;}
 #contact .formlist ul li .inputbox{display: block; width: calc(100% - 140px); padding: 0 10px;}
 
-#contact .formlist ul li .inputbox input{display: block; width: 100%; line-height: 36px; font-size: 16px; border:none; border-bottom: 1px solid #f84e1a; padding: 0 10px;}
+#contact .formlist ul li .inputbox input{display: block; width: 100%; line-height: 36px; font-size: 16px; border:none; border-bottom: 1px solid #f84e1a; padding: 0 10px; border-radius: 4px;}
 #contact .formlist ul li .inputbox textarea{width: 100%; border: 1px solid #f84e1a; line-height: 36px; font-size: 16px; border-radius:4px; height: 320px; resize: none;}
 #contact .formlist .btn_box{padding: 20px 10px 0; text-align: center;}
 #contact .formlist .btn_box button{font-size: 17px; background-color: #faab8e; color:#fff; border:none; border-radius:4px; cursor: pointer; padding: 10px 20px;}

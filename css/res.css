@@ -34,6 +34,7 @@
     #main #bg_img .main_txt p{font-size: 8px;}
     #main #bg_img .bottom_txt p{border-left: 2px solid #f84e1a; font-size: 8px; padding-left: 5px;}
 
+    #about{padding-top: 0;}
     #about article .left .profile .img{width: 240px;}
     #about article .left .profile .img .deco_line{width: 260px; height: 338px;}
 
@@ -48,24 +49,122 @@
     
 }
 
-@media (max-width:991px){
-
-}
 
 @media (max-width:767px){
+    nav{transform-origin: left bottom; transform: rotate(90deg);}
+
     #about article{flex-direction: column-reverse; padding: 0 40px;}
     #about article .left{width: 100%; padding-left: 80px;}
     #about article .right{width: 100%; text-align: left; padding-right: 0; padding-left: 80px;}
+
+    #skills article .left{width: 100%; padding-left: 80px;}
+    #skills article .right{width: 100%; padding-right: 80px; word-break: keep-all;}
+
+    .graph-wrapper{max-width: 70%;}
+    .percent-indicator div::before, .percent-indicator div::after{font-size: 18px;}
+
+    #works .left_txt{width: 100%; padding: 0; padding-left: 80px;}
+    #works .slide_frame .slide_part{padding: 0;}
+    #works .slide_frame .slide_part .slides{padding-left: 50px; padding-right: 280px;}
+    #works .slide_frame .slide_part .slick-dots{right: 230px;}
+    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part > .text_box .cont_info h4{font-size: 16px;}
+    #works .slide_frame .text_part > .text_box .cont_info a{z-index: 5;}
+    #works .slide_frame .text_part > .text_box .cont_info a:hover{background-color: #f84e1a; z-index: 5;}
+
+    #contact{padding-left: 90px; padding-right: 80px;}
 }
 
 
 
 @media (max-width:639px){
-    nav{transform-origin: left bottom; transform: rotate(90deg);}
+    nav .menu li a{font-size: 11px;}
+
+    #about article .left{width: 100%; padding-left: 50px;}
+    #about article .right{width: 100%; text-align: left; padding-right: 0; padding-left: 50px;}
+    #about article .right h2{font-size: 34px;}
+    #about article .right p{font-size: 15px;}
+
+    #skills article .left h2{font-size: 34px;}
+    #skills .degree h2{font-size: 30px;}
+
+    .graph-wrapper{padding: 10px; max-width: 80%;}
+
+    #works .left_txt{width: 100%; padding: 0; padding-left: 80px;}
+    #works .left_txt h3{font-size: 34px;}
+    #works .slide_frame{height: 600px;}
+    #works .slide_frame .slide_part{padding: 0;}
+    #works .slide_frame .slide_part .slides{padding-left: 50px; padding-right: 330px;}
+    #works .slide_frame .slide_part .slick-dots{right: 290px;}
+    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part > .text_box h3{padding: 100px 0 60px 0;}
+    #works .slide_frame .text_part > .text_box .cont_info{margin-top: 0;}
+    #works .slide_frame .text_part > .text_box h3{font-size: 30px;}
+    #works .slide_frame .text_part > .text_box .cont_info h4{font-size: 16px; padding: 0; padding-bottom: 25px;}
+
+    #works .slide_frame .text_part > .text_box .cont_info a{z-index: 5;}
+    #works .slide_frame .text_part > .text_box .cont_info a:hover{background-color: #f84e1a; z-index: 5;}
+
+    #contact{padding-left: 50px; padding-right: 50px;}
+    #contact h2{padding-left: 50px; padding-bottom: 10px; font-size: 34px; word-break: keep-all;}
+    #contact .formlist ul li label{font-size: 15px;}
+    #contact .formlist ul li .inputbox input{font-size: 15px;}
+    #contact .formlist ul li .inputbox textarea{font-size: 15px;}
+
+    .thankyou_message article h1{font-size: 20px; font-weight: bold;}
+    .thankyou_message article p{font-size: 15px;}
+    .thankyou_message article .btn_box a{font-size: 15px;}
 }
 
 
 
 @media (max-width:420px){
+    body{overflow-x: hidden;}
+    section{padding-top: 0; padding-bottom: 150px;}
 
+    #main #bg_img .top_txt h4{left: 30px; font-size: 10px;}
+    #main #bg_img .bottom_txt{left: 30px;}
+    nav .menu li a{font-size: 10px;}
+
+    #about article .right{padding-right: 0;}
+    #about article .right h2{font-size: 30px;}
+    #about article .right p{font-size: 13px;}
+    #about article .left .story p{font-size: 13px;}
+    
+    #skills article{display: block;}
+    #skills article .left{width: 100%; padding-left: 80px;}
+    #skills article .left h2{width: 100%; font-size: 30px;}
+    #skills article .right{padding-top: 0; width: 100%; padding-right: 50px; padding-left: 80px;}
+    #skills .degree h2{padding: 50px 40px; font-size: 25px; word-break: keep-all;}
+    #skills .degree > p{font-size: 13px;}
+
+    #works .left_txt{padding-left: 70px;}
+    #works .left_txt > p{font-size: 13px;}
+    #works .left_txt h3{font-size: 30px; word-break: keep-all;}
+    #works .slide_frame{height: 500px;}
+    #works .slide_frame .slide_part{padding: 0;}
+    #works .slide_frame .slide_part .slides{padding-left: 50px; padding-right: 400px;}
+    #works .slide_frame .slide_part .slick-dots{right: 375px;}
+    #works .slide_frame .slide_part .slick-dots li{height: 1px;}
+    #works .slide_frame .slide_part .slick-dots li button{padding: 0; width: 5px; height: 5px;}
+    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part > .text_box h3{padding: 0; padding-top: 50px; padding-bottom: 20px; font-size: 24px;}
+    #works .slide_frame .text_part > .text_box .cont_info h4{font-size: 12px;}
+    #works .slide_frame .text_part > .text_box .cont_info > p{font-size: 10px;}
+
+    #works .slide_frame .text_part > .text_box .cont_info a{display: block; text-align: center; width: 70px; font-size: 10px; background-color: #faab8e; color:#fff; padding: 10px; border-radius: 5px; font-weight: 500; margin-top: 20px;}
+
+    #contact{padding: 0 70px;}
+    #contact h2{font-size: 30px; text-align: left; padding-left: 0;}
+    #contact > p{font-size: 13px; padding-left: 0; text-align: left;}
+
+    #contact .formlist ul li label{font-size: 12px; width: 80px;}
+    #contact .formlist ul li .inputbox{width: calc(100% - 80px);}
+    #contact .formlist ul li .inputbox input{font-size: 10px;}
+    #contact .formlist ul li .inputbox textarea{font-size: 10px; word-break: keep-all;}
+    #contact .formlist .btn_box button{font-size: 10px; padding: 10px;}
+
+    footer .wrap .copyrights h4{font-size: 15px;}
+    footer .wrap .copyrights h4 span{font-size: 13px;}
+    footer .wrap .copyrights p{font-size: 10px;}
 }

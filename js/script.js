@@ -49,11 +49,11 @@ $(document).ready(function () {
 
     });
 
-
+    //메뉴 이벤트
     function menuEvt(){
         const screen = $(window).width();
         console.log(screen);
-        if(screen<=639){
+        if(screen<=767){
             $("#logo .menu_icon").hide();
             $("#logo nav").show();
             setTimeout(function () {
