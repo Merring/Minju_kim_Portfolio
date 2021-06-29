@@ -9,7 +9,7 @@ ul, ol{margin: 0; padding: 0; list-style: none;}
 a{text-decoration: none;}
 
 /* 공통 부분 */
-body{background: linear-gradient(to top, #fff3e4, #fff); -ms-overflow-style: none; /*overflow-x:hidden;*/}
+body{background: linear-gradient(to top, #fff3e4, #fff); -ms-overflow-style: none; overflow-x:hidden;}
 body::-webkit-scrollbar {display: none;}
 section{padding-top: 120px; padding-bottom: 200px;}
 .sub{font-size: 38px; color: #333;}

@@ -53,7 +53,7 @@
 @media (max-width:767px){
     nav{transform-origin: left bottom; transform: rotate(90deg);}
 
-    #about article{flex-direction: column-reverse; padding: 0 40px;}
+    #about article{flex-direction: column-reverse;}
     #about article .left{width: 100%; padding-left: 80px;}
     #about article .right{width: 100%; text-align: left; padding-right: 0; padding-left: 80px;}
 
@@ -67,10 +67,10 @@
     #works .slide_frame .slide_part{padding: 0;}
     #works .slide_frame .slide_part .slides{padding-left: 50px; padding-right: 280px;}
     #works .slide_frame .slide_part .slick-dots{right: 230px;}
-    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part{width: 40%; position: relative;}
     #works .slide_frame .text_part > .text_box .cont_info h4{font-size: 16px;}
-    #works .slide_frame .text_part > .text_box .cont_info a{z-index: 5;}
-    #works .slide_frame .text_part > .text_box .cont_info a:hover{background-color: #f84e1a; z-index: 5;}
+    /* #works .slide_frame .text_part > .text_box .cont_info a{z-index: 5;}
+    #works .slide_frame .text_part > .text_box .cont_info a:hover{background-color: #f84e1a; z-index: 5;} */
 
     #contact{padding-left: 90px; padding-right: 80px;}
 }
@@ -80,17 +80,18 @@
 @media (max-width:639px){
     nav .menu li a{font-size: 11px;}
 
-    #about article .left{width: 100%; padding-left: 50px;}
-    #about article .right{width: 100%; text-align: left; padding-right: 0; padding-left: 50px;}
+    #about article .left{width: 100%; padding-left: 70px;}
+    #about article .right{width: 100%; text-align: left; padding-right: 0; padding-left: 70px;}
     #about article .right h2{font-size: 34px;}
     #about article .right p{font-size: 15px;}
 
+    #skills article .left{padding-left: 70px;}
     #skills article .left h2{font-size: 34px;}
     #skills .degree h2{font-size: 30px;}
 
     .graph-wrapper{padding: 10px; max-width: 80%;}
 
-    #works .left_txt{width: 100%; padding: 0; padding-left: 80px;}
+    #works .left_txt{width: 100%; padding: 0; padding-left: 70px;}
     #works .left_txt h3{font-size: 34px;}
     #works .slide_frame{height: 600px;}
     #works .slide_frame .slide_part{padding: 0;}
@@ -105,7 +106,7 @@
     #works .slide_frame .text_part > .text_box .cont_info a{z-index: 5;}
     #works .slide_frame .text_part > .text_box .cont_info a:hover{background-color: #f84e1a; z-index: 5;}
 
-    #contact{padding-left: 50px; padding-right: 50px;}
+    #contact{padding-left: 70px; padding-right: 70px;}
     #contact h2{padding-left: 50px; padding-bottom: 10px; font-size: 34px; word-break: keep-all;}
     #contact .formlist ul li label{font-size: 15px;}
     #contact .formlist ul li .inputbox input{font-size: 15px;}
@@ -119,8 +120,16 @@
 
 
 @media (max-width:420px){
-    body{overflow-x: hidden;}
+    html{overflow-x: hidden;}
     section{padding-top: 0; padding-bottom: 150px;}
+
+
+    #main #bg_img .top_txt h4{font-size: 8px;}
+    #main #bg_img .top_txt p{font-size: 6px;}
+    #main #bg_img .main_txt h3{font-size: 12px;}
+    #main #bg_img .main_txt h2{font-size: 20px;}
+    #main #bg_img .main_txt h2 span{font-size: 16px;}
+    #main #bg_img .main_txt p{font-size: 8px; word-break: keep-all;}
 
     #main #bg_img .top_txt h4{left: 30px; font-size: 10px;}
     #main #bg_img .bottom_txt{left: 30px;}
@@ -135,8 +144,12 @@
     #skills article .left{width: 100%; padding-left: 80px;}
     #skills article .left h2{width: 100%; font-size: 30px;}
     #skills article .right{padding-top: 0; width: 100%; padding-right: 50px; padding-left: 80px;}
+    #skills article .right h3{font-size: 15px;}
+    #skills article .right > p{font-size: 13px;}
     #skills .degree h2{padding: 50px 40px; font-size: 25px; word-break: keep-all;}
     #skills .degree > p{font-size: 13px;}
+    .percent-indicator div::before, .percent-indicator div::after{font-size: 15px;}
+    .graph > li{font-size: 13px;}
 
     #works .left_txt{padding-left: 70px;}
     #works .left_txt > p{font-size: 13px;}
@@ -157,9 +170,10 @@
     #contact{padding: 0 70px;}
     #contact h2{font-size: 30px; text-align: left; padding-left: 0;}
     #contact > p{font-size: 13px; padding-left: 0; text-align: left;}
-
-    #contact .formlist ul li label{font-size: 12px; width: 80px;}
-    #contact .formlist ul li .inputbox{width: calc(100% - 80px);}
+    
+    #contact .formlist ul li{flex-wrap: wrap;}
+    #contact .formlist ul li label{font-size: 12px; width: 100%;}
+    #contact .formlist ul li .inputbox{width: 100%;}
     #contact .formlist ul li .inputbox input{font-size: 10px;}
     #contact .formlist ul li .inputbox textarea{font-size: 10px; word-break: keep-all;}
     #contact .formlist .btn_box button{font-size: 10px; padding: 10px;}
