@@ -67,10 +67,9 @@
     #works .slide_frame .slide_part{padding: 0;}
     #works .slide_frame .slide_part .slides{padding-left: 50px; padding-right: 280px;}
     #works .slide_frame .slide_part .slick-dots{right: 230px;}
-    #works .slide_frame .text_part{width: 40%; position: relative;}
+    #works .slide_frame .text_part{width: 40%;}
+    #works .slide_frame .text_part > .text_box{position: relative;}
     #works .slide_frame .text_part > .text_box .cont_info h4{font-size: 16px;}
-    /* #works .slide_frame .text_part > .text_box .cont_info a{z-index: 5;}
-    #works .slide_frame .text_part > .text_box .cont_info a:hover{background-color: #f84e1a; z-index: 5;} */
 
     #contact{padding-left: 90px; padding-right: 80px;}
 }
