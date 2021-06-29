@@ -14,11 +14,11 @@ $(document).ready(function () {
             moveMail = 172;
             angle = 90;
             $("#logo").addClass("active");
-        } else if ($sct <= 260) {
+        }else if ($sct <= 260){
             moveMail = $sct * 0.6;
             angle = $sct * 0.35;
             $("#logo").removeClass("active");
-        }
+        };
 
 
 
@@ -67,8 +67,8 @@ $(document).ready(function () {
                 $("#logo h2").show(0);
                 $("#logo nav").hide(0);
             }, 1000);
-        }
-    }
+        };
+    };
     menuEvt();
 
 
