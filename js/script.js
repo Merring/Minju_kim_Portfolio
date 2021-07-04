@@ -145,8 +145,8 @@ $(document).ready(function () {
         ["res_Origin.png", "[반응형] Origin 포트폴리오 웹사이트", "Origin이라는 포트폴리오 작품들을 소개하는 웹 사이트를 작업해 보았습니다! 반응형 웹사이트로서 다양한 기종, 환경에서도 문제없이 구동될 수 있도록 하였습니다.", "https://merring.github.io/Origin/"],
         ["res_Ajax_webpage.png", "[반응형] 장사리 전투 웹사이트", "Ajax를 이용하여 장사리 전투라는 영화를 소개하는 웹 사이트 작업을 하였습니다! 반응형 웹사이트로서 다양한 기종, 환경에서도 문제없이 구동될 수 있도록 하였습니다.", "https://merring.github.io/ajax_website/"],
         ["res_Weather_App.png", "[반응형] 날씨 앱 웹사이트", "현재 위치에 따른 날씨 정보를 받아오거나, 지역을 검색하여 검색한 지역의 날씨 정보를 볼 수 있는 날씨 앱 사이트를 만드는 작업을 하였습니다! 반응형 웹사이트로서 다양한 기종, 환경에서도 문제없이 구동될 수 있도록 하였습니다.", "https://merring.github.io/weather/"],
-        ["php_website.png", "[PHP / Mysql] PHP를 이용한 교육 웹사이트", "PHP와 Mysql을 이용하여 교육 웹사이트를 구축하는 작업을 해 보았습니다! 회원가입 후 다른 회원에게 메세지를 보내거나, 게시판에 글을 올리거나 마음에 드는 교육 과정에 좋아요 표시도 가능합니다! 아, 열심히 활동을 하면 회원 포인트도 차곡차곡 쌓인답니다!!!", "https://mindy000.dothome.co.kr/Website"],
-        ["php_mychat.png", "[PHP / Mysql] PHP를 이용한 채팅 앱 웹사이트", "PHP와 Mysql을 이용하여 채팅 앱과 같은 느낌의 웹 사이트를 만드는 작업을 하였습니다! 회원끼리 채팅 메시지를 주고 받을 수 있으며, 전송된 메시지 삭제도 가능합니다.", "https://mindy000.dothome.co.kr/My_chat"],
+        ["php_website.png", "[PHP / Mysql] PHP를 이용한 교육 웹사이트", "PHP와 Mysql을 이용하여 교육 웹사이트를 구축하는 작업을 해 보았습니다! 회원가입 후 다른 회원에게 메세지를 보내거나, 게시판에 글을 올리거나 마음에 드는 교육 과정에 좋아요 표시도 가능합니다! 아, 열심히 활동을 하면 회원 포인트도 차곡차곡 쌓인답니다!!!", "http://mindy000.dothome.co.kr/Website"],
+        ["php_mychat.png", "[PHP / Mysql] PHP를 이용한 채팅 앱 웹사이트", "PHP와 Mysql을 이용하여 채팅 앱과 같은 느낌의 웹 사이트를 만드는 작업을 하였습니다! 회원끼리 채팅 메시지를 주고 받을 수 있으며, 전송된 메시지 삭제도 가능합니다.", "http://mindy000.dothome.co.kr/My_chat"],
     ];
 
     const works_cont = `
